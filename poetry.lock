@@ -2412,13 +2412,13 @@ test = ["coverage", "pytest", "pytest-cov", "tox"]
 
 [[package]]
 name = "pylsp-rope"
-version = "0.1.15"
+version = "0.1.16"
 description = "Extended refactoring capabilities for Python LSP Server using Rope."
 optional = false
 python-versions = ">=3.6"
 files = [
-    {file = "pylsp-rope-0.1.15.tar.gz", hash = "sha256:d1fd16cc971539f1f569b267bd908b339fd6d497d5c520c01fe67500303a9144"},
-    {file = "pylsp_rope-0.1.15-py3-none-any.whl", hash = "sha256:fc14ed2ebfd6f26c18945d163d5c99c5ff77d2077f1d6b4051868dd2192ea369"},
+    {file = "pylsp-rope-0.1.16.tar.gz", hash = "sha256:d680b688c60a40257a8842ec808a6e0de1596a47a5300f22aecfdc69555020a7"},
+    {file = "pylsp_rope-0.1.16-py3-none-any.whl", hash = "sha256:a3d6aff3dd8da8c1ceaab92abfb03b146a710de7742a8a7b80e2d14965c0a285"},
 ]
 
 [package.dependencies]
@@ -2428,7 +2428,7 @@ typing-extensions = {version = "*", markers = "python_version < \"3.10\""}
 
 [package.extras]
 dev = ["build", "pytest", "twine"]
-test = ["pytest"]
+test = ["flake8", "pytest", "pytest-cov"]
 
 [[package]]
 name = "pyproject-hooks"
